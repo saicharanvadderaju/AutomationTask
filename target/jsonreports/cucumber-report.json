@@ -1,0 +1,120 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-25T12:15:38.531Z",
+        "line": 3,
+        "name": "Validate Printed Chiffron Dress",
+        "description": "",
+        "id": "validate-the-price-when-user-purchases-a-product;validate-printed-chiffron-dress",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16147657500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on automationpractice page",
+            "match": {
+              "location": "StepDefinations.ValidatingPriceforAddedProduct.user_is_on_automationpractice_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 349003100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"PRINTED CHIFFRON DRESS\" in search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PRINTED CHIFFRON DRESS\"",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinations.ValidatingPriceforAddedProduct.user_enter_in_search_box(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1905680100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on search Button",
+            "match": {
+              "location": "StepDefinations.ValidatingPriceforAddedProduct.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2959248700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on PRINTED CHIFFRON DRESS result",
+            "match": {
+              "location": "StepDefinations.ValidatingPriceforAddedProduct.user_clicks_on_printed_chiffron_dress_result()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4096926400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user clicks on Add to Cart button",
+            "match": {
+              "location": "StepDefinations.ValidatingPriceforAddedProduct.user_clicks_on_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3047387800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on proceed to checkout button",
+            "match": {
+              "location": "StepDefinations.ValidatingPriceforAddedProduct.user_clicks_on_proceed_to_checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190000300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verifies total prrice to \"18.40\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"18.40\"",
+                  "offset": 25
+                }
+              ],
+              "location": "StepDefinations.ValidatingPriceforAddedProduct.verifies_total_prrice_to(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Validate the price when user purchases a product",
+    "description": "",
+    "id": "validate-the-price-when-user-purchases-a-product",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/AddProductandValidatePrice.feature",
+    "tags": []
+  }
+]
